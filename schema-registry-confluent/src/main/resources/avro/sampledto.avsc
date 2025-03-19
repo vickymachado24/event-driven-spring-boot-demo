@@ -1,0 +1,20 @@
+{
+  "namespace": "com.machado.dto",
+  "type": "record",
+  "name": "SampleDto",
+  "fields": [
+    {
+      "name": "id",
+      "type": "int"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "email",
+      "type": "string",
+      "default": ""
+    }
+  ]
+}
